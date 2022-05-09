@@ -73,5 +73,12 @@ let fullName = {
 console.log(" ")
 console.log("age" in user)   // returns true if "age" exists in user object
 
+function myUser(){
+    return `Hello ${this.last}`
+}
 
+const u1 = myUser.call()
+const u2 = myUser.bind()
+const u3 = myUser.apply({last:"World"})
+console.log(u3)
 
