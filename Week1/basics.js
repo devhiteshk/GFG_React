@@ -100,3 +100,39 @@ console.log(fnRef())
 test.myFunc = fnRef
 
 console.log(test.myFunc())
+
+// Week 1 day 2
+
+let animal = {
+    eats: 'carrot'
+}
+
+let rabbit = {
+    jumps: 'on tree'
+}
+
+Object.setPrototypeOf(rabbit,animal)
+
+console.log(rabbit.eats)
+
+const a = [1,2,3,4,5,6]
+
+console.log(a.slice(1))
+
+Array.prototype.myFunc = function(){
+    console.log('hitesh')
+}
+
+class User {
+    constructor(name){
+        this.name = name
+    }           // constructor
+
+    SayHi(){
+        console.log(this.name)
+    }           // method cant use arrow function for method in a class
+}
+
+let user01 = new User("John")
+user01.SayHi()
+
