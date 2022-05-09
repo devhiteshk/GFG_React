@@ -82,3 +82,21 @@ const u2 = myUser.bind()
 const u3 = myUser.apply({last:"World"})
 console.log(u3)
 
+const u4 = {
+    name: `shreynik`,
+    getFullName: function(){
+        return this.likes
+    } 
+}
+
+const test ={
+    likes: 'badminton'
+}
+
+const fnRef = u4.getFullName
+
+console.log(fnRef())
+
+test.myFunc = fnRef
+
+console.log(test.myFunc())
