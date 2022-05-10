@@ -179,3 +179,13 @@ promise
     .catch(res=> console.log(err))
     .finally(()=> console.log('Do something'))
 
+async function f(){
+    let promise = new Promise(function(res,rej){
+        setTimeout(()=> res("done"),1000)
+    })
+
+    let result = await promise
+    console.log(result)
+}
+f()
+

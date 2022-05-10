@@ -1,0 +1,32 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+.nav{
+    background-color: rgb(8, 18, 43);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    color: white;
+}
+
+.main-content{
+
+    /* background-color: rgb(67, 234, 123); */
+}
+
+table{
+    margin: 50px auto;
+    padding: 10px;
+    
+}
+
+tr td{
+    border: 1px solid black;
+}
+
+td{
+    padding: 0 30px;
+}
