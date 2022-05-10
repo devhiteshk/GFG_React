@@ -136,3 +136,46 @@ class User {
 let user01 = new User("John")
 user01.SayHi()
 
+class Button{
+    constructor(value){
+        this.value = value
+    }
+    click = () =>{
+        console.log(this.value)
+    }
+}
+ 
+let button = new Button("hello")
+
+setTimeout(button.click, 1000)
+
+function makeCounter(){
+    let count = 0;
+    return function(){
+        return count++
+    }
+}
+
+let counter = makeCounter()
+
+console.log(counter())
+console.log(counter())
+console.log(counter())
+
+
+let promise = new Promise(function(res,rej){
+    setTimeout(()=> res("done"),1000)
+})
+
+console.log(promise)
+
+promise.then(
+    result => console.log(result),
+    error => console.log(error)
+)
+
+promise
+    .then(res=> console.log(res))
+    .catch(res=> console.log(err))
+    .finally(()=> console.log('Do something'))
+
