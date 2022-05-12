@@ -23,7 +23,7 @@ e() =>{}
 
 e = [1,2,3,5]
 
-e.filter()      //because of unknows ts shows error
+e.filter()      //because of unknows ts shows error "TS is so good"
 
 let num2: number = "hey"
 
