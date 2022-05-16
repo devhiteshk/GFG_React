@@ -72,3 +72,9 @@ userNew.age
 userNew.address
 
 
+let duplicate : (input:AddFunc) => string;
+
+const myFunc = (fn: AddFunc) => {
+    const res: (3,2)
+    return res
+}
