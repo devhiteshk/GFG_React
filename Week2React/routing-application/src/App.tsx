@@ -3,7 +3,7 @@ import React from 'react';
 import About from './components/About';
 import Contact from './components/Contact';
 import Home from './components/Home';
-import './index.css'
+import './index.css';
 import { Routes ,Route } from 'react-router-dom';
 
  export default class App extends React.Component {

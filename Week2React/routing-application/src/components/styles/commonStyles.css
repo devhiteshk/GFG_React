@@ -1,6 +1,5 @@
 .App-link {
-  color: #61dafb;
-
+  color: #000000;
 }
 
 .top-nav{
@@ -10,7 +9,7 @@
 }
 
 .nav-items{
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   padding: 10px;
 }
 
