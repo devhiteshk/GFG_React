@@ -3,14 +3,15 @@
 }
 
 .top-nav{
-  margin-top: 20px;
-  padding: 10px;
-  background-color: #282c34;
+  margin-top: 0px;
+  padding: 15px;
+  background-color: #f2f54c;
 }
 
 .nav-items{
   color: rgb(0, 0, 0);
-  padding: 10px;
+  padding: 0 20px;
+  text-decoration: none;
 }
 
 

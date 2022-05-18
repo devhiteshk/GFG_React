@@ -1,5 +1,6 @@
 import React from 'react';
-// import './App.css';
+import './components/styles/commonStyles.css'
+import Header from './components/Common/Header';
 import About from './components/About';
 import Contact from './components/Contact';
 import Home from './components/Home';
@@ -10,7 +11,7 @@ import { Routes ,Route } from 'react-router-dom';
   render(){
     return(
       <React.Fragment>
-      <header/>
+      <Header/>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/about-us" element={<About/>}/>
